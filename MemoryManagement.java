@@ -36,7 +36,7 @@ class Robot {
 public class MemoryManagement {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            new Robot("Bot" + i);  // These objects are not referenced
+            new Robot("Bot" + i);
         }
 
         System.gc();  // Suggesting GC to run
